@@ -1,0 +1,75 @@
+.popup {
+    position: relative;
+    display: inline-block;
+    
+}
+ 
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    position: fixed; /* Sit on top of the page content */
+    display: yes; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.67); /* Black background with opacity */
+    z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+    /* Add a pointer on hover */
+ 
+}
+ 
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+ 
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+ 
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+div{
+font-family:'Jua',sans-serif;}
+button{
+font-family:'Josefin Sans',sans-serif;}
+.alert {
+ 
+   border-radius:10px;
+    margin:auto;
+    margin:auto;
+    background-color: blue;
+    color: white;
+    position: relative;
+    display: block;
+ 
+    z-index : 2;
+}
+ 
+.centr{
+margin:auto 230px auto 150px;}
+.c2nter{
+
+margin:auto auto auto 25px;
+width:225px;
+height:40px;
+border-radius:6px;
+font-weight:bold;
+color:white;
+background-color:red;}
+.center{
+margin:auto auto auto 170px;
+width:75px;
+height:40px;
+border-radius:6px;
+color:white;
+font-weight:bold;
+background-color:green;}
