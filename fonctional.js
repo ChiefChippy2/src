@@ -1,7 +1,4 @@
 
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-    }
  
 function show(){document.getElementById('lrt').style ="display:yes;"}
 
