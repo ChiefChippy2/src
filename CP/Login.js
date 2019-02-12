@@ -20,7 +20,7 @@ google.script.run.withSuccessHandler(dv).validInfo(authResult.Zi.id_token,lang)
 function dv(e){
 document.write(e)
 }
- document.getElementById('signin').addEventListener('click',function(){auth2.signIn().then(SignInCallback)},true)
+ document.body.getElementById('signin').addEventListener('click',function(){auth2.signIn().then(SignInCallback)},true)
     window.onerror=function(a,b,c,d,e){alert(a)}
 //    alert(document.cookie)
 //    if(document.cookie.search('autoLog=true')!=-1){
