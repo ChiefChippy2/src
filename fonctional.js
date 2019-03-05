@@ -36,6 +36,7 @@ var e = einfo[0]
 /*var parser = new DOMParser();
 var xmlDoc = parser.parseFromString(e,"text/xml");
 alert(xmlDoc)*/
+document.getElementById('pUrl').innerHTML='<a href="'+einfo[2]+'" >Use permanent URL</a>'
 document.cookie = content
 sessionStorage.setItem('Timeout',time.toUTCString())
  var x = window.open("text/html","replace")
