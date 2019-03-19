@@ -1,13 +1,12 @@
 //Uhhh
 var ss={
-"get" :function(key) {LocalStorage.getItem(key)}, 
+"get" :function(key) {localStorage.getItem(key)}, 
 
 
 
 
-"set" :function(key,val) {LocalStorage.setItem(key,val)} 
+"set" :function(key,val) {localStorage.setItem(key,val)} 
 } 
-function(){}
 alert('wait') 
 ss.set('test','543')
 alert(ss.get('test'))
